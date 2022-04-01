@@ -1,0 +1,133 @@
+/* css section header css */
+.sectionheader{
+    padding: 60px 0 105px;
+    background-color: #fcdb00;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 16px;
+    margin: 0 16px;
+}
+.navbar li a{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #010101;
+    text-transform: capitalize;
+    height: 47.62px;
+    line-height: 47.62px;
+}
+
+/* section feature css */
+.inspire h2{
+    font-size: 32px;
+    color: #010101;
+    font-weight: bold;
+}
+.inspire h4{
+    font-size: 20px;
+    color: #313841;
+}
+.inspire p{
+    font-size: 16px;
+    color: #555555;
+}
+.iconnavbar li{
+    display: inline-block;
+}
+.iconnavbar li a{
+    display: inline-block;
+    font-size: 42px;
+    color: #010101;
+}
+
+/* section feature css/ */
+.sectionfeature{
+    padding: 119px 0 165px;
+}
+.feature h2{
+    font-size: 32px;
+    color: #010101;
+}
+.feature p{
+    font-size: 20px;
+    color: #313841;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section thumbnail css */
+.thumbnailicon i{
+    font-size: 42px;
+    color: #010101;
+}
+.thumbnailinfo h2{
+    font-size: 22px;
+    color: #010101;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    min-height: 70px;
+}
+.thumbnailinfo p{
+    font-size: 16px;
+    color: #898989;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .section footer css */
+.sectionfooter{
+    background-color: #010101;
+    padding: 100px 0 140px;
+}
+.footerhead h2{
+    color: #fcdb00;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+.footerhead p{
+    font-size: 16px;
+    color: #898989;
+    font-family: 'Poppins', sans-serif;
+}
+.submit{
+    background-color: #fcdb00;
+    height: 50px;
+    width: 126px;
+    display: inline-block;
+    border: 1px solid #fcdb00;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.submit:hover{
+    background-color: red;
+}
+.email{
+    height: 50px;
+    padding: 0 25px;
+    display: inline-block;
+    border: 1px solid #fcdb00;
+    border-radius: 5px;
+    width: calc(100% - 190px);
+}
+.footericon li{
+    font-size: 36px;
+    color: #010101;
+    background-color: #fcdb00;
+    border: 1px solid #fcdb00;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 6px;
+    cursor: pointer;    
+    margin-right: 35px !important;
+}
+.footericon li:hover{
+    background-color: #ffffff;
+}
+.footerinfo li{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.footerinfo li a{
+    color: #ffffff;
+    text-transform: capitalize;
+}

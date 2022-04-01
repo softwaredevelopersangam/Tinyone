@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(212, 22, 22); */
+}
+.row,
+.row::after,
+.row::before{
+    clear: both;
+    display: table;
+    width: 100%;
+}
+a:hover,
+a:link,
+a:active,
+a:focus{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.lowercase{
+    text-transform: lowercase !important;
+}
+ /* helper classes for col columes */
+div[class^="col"]{
+     float: left;
+     padding: 0 15px;
+ }
+ .col1{
+    width: calc(100%*1/12);
+}
+.col2{
+    width: calc(100%*2/12);
+}
+.col3{
+    width: 25%;
+}
+.col4{
+    width: calc(100%*4/12);
+}
+.col5{
+   width: calc(100%*5/12);
+}
+.col6{
+    width:50%;
+}
+.col7{
+    width: calc(100%*7/12);
+}
+.col8{
+    width: calc(100%*8/12);
+}
+.col9{
+    width: 75%;
+}
+.col10{
+    width: calc(100%*10/12);
+}
+.col11{
+    width: calc(100%*11/12);
+}
+.col12{
+    width: calc(100%*12/12);
+}
+
+
+
+/* helper classes for padding columes */
+.pt-0{
+    padding-top: 0px !important;
+}
+.pr-0{
+    padding-right: 0px !important;
+}
+.pb-0{
+    padding-bottom: 0px !important;
+}
+.pl-0{
+    padding-left: 0px !important;
+}
+.pl-oneandhalf{
+    padding-left: calc(100% * 1.5 / 12) !important;
+}
+/* .pr-oneandhalf{
+    padding-right: calc(100% * 1.5 / 12) !important;
+} */
+.pt-75{
+    padding-top: 75px !important;
+}
+.pt-20{
+    padding-top: 20px !important;
+}
+.pr-onecolume{
+    padding-right: calc(100%/12) !important;
+}
+.pr-22{
+    padding-right: 22px !important;
+}
+
+/* helper classes for margin columes */
+.mt-0{
+    margin-top: 0 !important;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+.mb-70{
+    margin-bottom: 70px !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.ml-20{
+    margin-left: 20px !important;
+}
+.mb-40{
+    margin-bottom: 40px !important;
+}
+/* .mr-40{
+    margin-right: 40px !important;
+} */
+.mb-45{
+    margin-bottom: 45px !important;
+}
+.mlr-40{
+    margin: 0 40px !important;
+}
+.mb-90{
+    margin-bottom: 90px !important;
+}
+.mb-80{
+    margin-bottom: 80px !important;
+}
+.mb-16{
+    margin-bottom: 16px !important;
+}
+.mb-130{
+    margin-bottom: 130px !important;
+}
+.mr-onecolume{
+    margin-right: calc(100%/12) !important;
+}
